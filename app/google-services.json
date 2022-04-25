@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261964342412",
+    "project_id": "socialmedia-2b5c6",
+    "storage_bucket": "socialmedia-2b5c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261964342412:android:da74164ef9211b552a07a9",
+        "android_client_info": {
+          "package_name": "com.tolgakurucay.kotlinchatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261964342412-c8o0r53mtfhve0q87t7pcmq8g983tklu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzkweP3d3_fyh7Wi-tRqhqtulBwfbRdg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261964342412-c8o0r53mtfhve0q87t7pcmq8g983tklu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

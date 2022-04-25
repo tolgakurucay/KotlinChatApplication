@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".PhoneVerificationActivity">
+
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/iconIv"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_twotone_phone_android_24"/>
+
+    <LinearLayout
+        android:id="@+id/phoneLl"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Telefon Numarası"
+            android:textAlignment="center"
+            android:textColor="#000"/>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lütfen devam etmek için telefon numaranızı giriniz"
+            android:textAlignment="center"
+            android:textColor="#777777"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="13"
+            android:id="@+id/phoneEt"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:hint="+90xxxxxxxxxx"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#c5c5c5"/>
+
+        <Button
+            android:id="@+id/phoneContinueBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Devam Et"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+<!--1) For phone number input-->
+
+ <LinearLayout
+        android:id="@+id/codeLl"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Doğrulama Kodu"
+            android:textAlignment="center"
+            android:textColor="#000"/>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:id="@+id/codeSentDescriptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lütfen +90xxxxxxxxxx numarasına gönderilen doğrulama kodunu giriniz"
+            android:textAlignment="center"
+            android:textColor="#777777"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/codeEt"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:hint="000000"
+            android:maxLength="6"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#c5c5c5"/>
+
+     <TextView
+         android:id="@+id/resendCodeTv"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         style="@style/TextAppearance.MaterialComponents.Caption"
+         android:padding="5dp"
+         android:textAlignment="center"
+         android:textColor="#777777"
+         android:text="@string/do_rulama_kodunu_almad_n_z_m_tekrardan_tolga_g_ndersin_sana"/>
+
+        <Button
+            android:id="@+id/codeSubmitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Doğrula"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
